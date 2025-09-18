@@ -29,7 +29,7 @@ class PhoneBook
     end
 
     def lookupByNum(number)
-        @listed_lookup[num]
+        @listed_lookup[number]
     end
 
     def namesByAc(areacode)
